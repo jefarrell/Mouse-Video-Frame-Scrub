@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    /*background: black;*/
+}
+
+h1 {
+    font-family: 'Raleway Dots', cursive;
+    text-align: center;
+    color:#000;
+    font-size:50px;
+    margin:0px 0px 0px 0px;
+    
+}
+
+#c {
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 40%;
+    right: 0;
+    width: 720px;
+    height: 480px;
+    margin: -180px 0 0 -240px;
+}
+
+#thevideo {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    bottom:40%;
+    width: 720px;
+    height: 480px;
+    margin: -180px 0 0 -240px;
+   -webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   transform: translateZ(0);
+
+   -webkit-perspective: 1000;
+   -moz-perspective: 1000;
+   -ms-perspective: 1000;
+   perspective: 1000;
+   /* Other transform properties here */
+}
+}
+
